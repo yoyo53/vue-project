@@ -1,0 +1,27 @@
+footer {
+    background-color:#6495ed;
+}
+
+footer a, footer p {
+    display: inline-block;
+    margin: 0 0.2em;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer ul li img {
+    height: 1em;
+}

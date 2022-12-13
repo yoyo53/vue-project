@@ -1,0 +1,10 @@
+#home {
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+
+#home h2 {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 3em;
+}

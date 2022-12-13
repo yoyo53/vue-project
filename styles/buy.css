@@ -1,0 +1,103 @@
+body.hidden_body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#slides_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+}
+
+.img_buttons img {
+    max-width: 20vw;
+    margin: 0.2em;
+}
+
+
+#table {
+    width: 90%;
+    margin: 1em auto;
+    color: #000000;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table tr {
+    border-bottom: 1px solid black;
+}
+
+#table tfoot tr {
+    border-bottom: none;
+}
+
+#table th {
+    padding: 0.5em;
+}
+
+#table td {
+    padding: 0.3em;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity p {
+    margin: 0 1em;
+}
+
+#pay_form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 2em;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 1em;
+    padding: 1em;
+    z-index: 11;
+}
+
+#pay_form h2 {
+    margin: 0;
+}
+
+#pay_form button {
+    margin: 0 1em;
+    margin-top: 0.5em;
+    line-height: 1.5em;
+}
+
+#pay_button {
+    display: block;
+    margin: 1em auto;
+}
+
+#cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
